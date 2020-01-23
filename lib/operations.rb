@@ -7,6 +7,8 @@ end
 
 
 def not_safe?(speed)
+  if not_safe (95)
+    puts ""
 	
 end
 	
