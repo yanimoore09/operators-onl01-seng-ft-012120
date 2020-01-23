@@ -1,7 +1,7 @@
 def unsafe?(speed)
   if unsafe?(60)
-    puts ""
-
+    puts "if the speed is either below 40 or above 60. Going 30 mph on the freeway would be unsaf"
+else "flase"
 end
 
 
