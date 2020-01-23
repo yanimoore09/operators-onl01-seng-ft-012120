@@ -12,7 +12,8 @@ def not_safe?(speed)
 	else "false"
 end
 	
-unsafe?(speed) > 60 , not_safe?(speed) > 95 ? :free_way_is_safe : :free_way_is_not_safe
+unsafe?(speed) > 60 ? :free_way_is_safe : :free_way_is_not_safe
+
 
 
 
