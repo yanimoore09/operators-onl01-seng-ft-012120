@@ -12,7 +12,8 @@ def not_safe?(speed)
 	else "false"
 end
 	
-unsafe?(speed) > 60 ? :free_way_is_safe : :free_way_is_not_safe
+unsafe?(speed) > 60 , not_safe?(speed) > 95 ? :free_way_is_safe : :free_way_is_not_safe
+
 
 
 #if the speed is either below 40 or above 60. Going 30 mph on the freeway would be unsafe, as would going 95 mph. Going 50 miles per hour, however, would return false as that's within the "safe" range.
